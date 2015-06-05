@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
-import github_api
+import api_github
 
 setup(
-    name='github_api',
-    version=github_api.version,
+    name='api_github',
+    version=api_github.version,
     packages=find_packages(),
     install_requires='requests',
     url='https://github.com/vir-mir/github_api',

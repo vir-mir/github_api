@@ -1,2 +1,5 @@
 .idea
 *.pyc
+api_github.egg-info
+build
+dist
